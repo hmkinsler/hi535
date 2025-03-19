@@ -52,7 +52,7 @@ for pdf_file in os.listdir(pdf_dir):
             processed_image = preprocess_image(image)
 
             # Use Tesseract to perform OCR on the pre-processed image
-            page_text = tesserocr.image_to_string(processed_image)
+            page_text = tesserocr.image_to_text(processed_image)
 
             # Append the text of the current page to the final output
             text += page_text
