@@ -1,0 +1,5 @@
+https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.8.0-tesseract-5.5.0/tesserocr-2.8.0-cp313-cp313-win_amd64.whl
+pdf2image
+opencv-python
+numpy
+pillow
