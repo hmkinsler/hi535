@@ -1,8 +1,9 @@
 import os
 import cv2
-from PIL import Image
 import numpy as np
-from utils.directories import map_input, map_output
+from pdf2image import convert_from_path
+from PIL import Image
+from utils.directories import map_dir, map_output
 
 # Ensure output directory exists
 os.makedirs(map_output, exist_ok=True)
@@ -26,7 +27,11 @@ def preprocess_image(image):
     
     return final_image
 
-for image in input:
+for file in os.listdir(map_dir):
+
+    # Convert PDF to image
+    image = convert_from_path(file)
+
     # Load the image
     image = cv2.imread(image)
 

@@ -1,0 +1,5 @@
+pdf2image
+opencv-python
+numpy
+pillow
+# install Poppler for Windows and add /bin to PATH: https://github.com/oschwartz10612/poppler-windows/releases/
