@@ -1,6 +1,7 @@
-https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.8.0-tesseract-5.5.0/tesserocr-2.8.0-cp313-cp313-win_amd64.whl
 pdf2image
 opencv-python
 numpy
 pillow
+pytesseract
 # install Poppler for Windows and add /bin to PATH: https://github.com/oschwartz10612/poppler-windows/releases/
+# install Tesseract for Windows: https://github.com/UB-Mannheim/tesseract/wiki and ensure to include the path to the Tesseract executable in the PATH environment variable
